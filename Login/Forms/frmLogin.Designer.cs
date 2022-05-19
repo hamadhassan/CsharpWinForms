@@ -34,15 +34,16 @@ namespace Login
             this.label3 = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.combxLoginAs = new System.Windows.Forms.ComboBox();
             this.txtbxUsername = new System.Windows.Forms.TextBox();
             this.txtbxPassword = new System.Windows.Forms.TextBox();
+            this.btnNewUser = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 30);
+            this.label1.Location = new System.Drawing.Point(13, 77);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 20);
@@ -52,7 +53,7 @@ namespace Login
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 63);
+            this.label2.Location = new System.Drawing.Point(13, 110);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 20);
@@ -62,7 +63,7 @@ namespace Login
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 94);
+            this.label3.Location = new System.Drawing.Point(13, 141);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(86, 20);
@@ -74,60 +75,76 @@ namespace Login
             this.btnLogin.BackColor = System.Drawing.Color.Green;
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.ForeColor = System.Drawing.Color.White;
-            this.btnLogin.Location = new System.Drawing.Point(220, 122);
+            this.btnLogin.Location = new System.Drawing.Point(119, 169);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(74, 31);
-            this.btnLogin.TabIndex = 1;
+            this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExit
             // 
             this.btnExit.BackColor = System.Drawing.Color.Maroon;
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(125, 122);
+            this.btnExit.Location = new System.Drawing.Point(214, 169);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(74, 31);
-            this.btnExit.TabIndex = 2;
+            this.btnExit.TabIndex = 3;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // comboBox1
+            // combxLoginAs
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.combxLoginAs.FormattingEnabled = true;
+            this.combxLoginAs.Items.AddRange(new object[] {
             "Admin",
             "Agent"});
-            this.comboBox1.Location = new System.Drawing.Point(125, 27);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(169, 28);
-            this.comboBox1.TabIndex = 3;
-            this.comboBox1.Text = "Select one option";
+            this.combxLoginAs.Location = new System.Drawing.Point(119, 74);
+            this.combxLoginAs.Name = "combxLoginAs";
+            this.combxLoginAs.Size = new System.Drawing.Size(169, 28);
+            this.combxLoginAs.TabIndex = 5;
+            this.combxLoginAs.Text = "Select one option";
             // 
             // txtbxUsername
             // 
-            this.txtbxUsername.Location = new System.Drawing.Point(125, 60);
+            this.txtbxUsername.Location = new System.Drawing.Point(119, 107);
             this.txtbxUsername.Name = "txtbxUsername";
             this.txtbxUsername.Size = new System.Drawing.Size(169, 26);
-            this.txtbxUsername.TabIndex = 4;
+            this.txtbxUsername.TabIndex = 0;
             // 
             // txtbxPassword
             // 
-            this.txtbxPassword.Location = new System.Drawing.Point(125, 90);
+            this.txtbxPassword.Location = new System.Drawing.Point(119, 137);
             this.txtbxPassword.Name = "txtbxPassword";
             this.txtbxPassword.Size = new System.Drawing.Size(169, 26);
-            this.txtbxPassword.TabIndex = 4;
+            this.txtbxPassword.TabIndex = 1;
+            // 
+            // btnNewUser
+            // 
+            this.btnNewUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.btnNewUser.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNewUser.ForeColor = System.Drawing.Color.White;
+            this.btnNewUser.Location = new System.Drawing.Point(17, 35);
+            this.btnNewUser.Name = "btnNewUser";
+            this.btnNewUser.Size = new System.Drawing.Size(276, 33);
+            this.btnNewUser.TabIndex = 4;
+            this.btnNewUser.Text = "Create an Account";
+            this.btnNewUser.UseVisualStyleBackColor = false;
+            this.btnNewUser.Click += new System.EventHandler(this.btnNewUser_Click);
             // 
             // frmLogin
             // 
+            this.AcceptButton = this.btnLogin;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(328, 182);
+            this.ClientSize = new System.Drawing.Size(326, 242);
+            this.Controls.Add(this.btnNewUser);
             this.Controls.Add(this.txtbxPassword);
             this.Controls.Add(this.txtbxUsername);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.combxLoginAs);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.label3);
@@ -151,9 +168,10 @@ namespace Login
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox combxLoginAs;
         private System.Windows.Forms.TextBox txtbxUsername;
         private System.Windows.Forms.TextBox txtbxPassword;
+        private System.Windows.Forms.Button btnNewUser;
     }
 }
 
