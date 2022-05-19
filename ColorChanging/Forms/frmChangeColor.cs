@@ -22,31 +22,29 @@ namespace ColorChanging
         private void btnNext_Click(object sender, EventArgs e)
         {
            ChangeColor c=new ChangeColor();
-           string color =c.getNextColor("Blue",ChangeColorDL.getChangeColorList());
-           lblNext.Text=color;
-           color = c.getPreviousColor("Blue", ChangeColorDL.getChangeColorList());
-           lblPrevious.Text = color;
+           string color =c.getNextColor("White", ChangeColorDL.getChangeColorList());
+           lblStatus.Text=color;
         }
 
         private void frmChangeColor_Load(object sender, EventArgs e)
         {
             ChangeColorDL.setIntoChangeColorList("Red");
             ChangeColorDL.setIntoChangeColorList("Green");
+            ChangeColorDL.setIntoChangeColorList("White;");
             ChangeColorDL.setIntoChangeColorList("Blue");
+
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-
         }
 
         private void btnPrevious_Click(object sender, EventArgs e)
         {
             ChangeColor c = new ChangeColor();
-            string color = c.getNextColor("Blue", ChangeColorDL.getChangeColorList());
-            lblNext.Text = color;
-            color = c.getPreviousColor("Blue", ChangeColorDL.getChangeColorList());
-            lblPrevious.Text = color;
+            string color = c.getPreviousColor("White", ChangeColorDL.getChangeColorList());
+            lblStatus.Text = color;
+           
         }
     }
 }

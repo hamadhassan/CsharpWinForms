@@ -26,11 +26,11 @@ namespace ColorChanging.BL
             {
                 if (color == colorList[i])
                 {
-                    if(colorList.Count == 3)
+                    if(colorList.Count == 4)
                     {
                         nextColor = colorList[0];
                     }
-                    if (colorList.Count < 3)
+                    if (colorList.Count < 4)
                     {
                         nextColor = colorList[i+1];
                     }
@@ -48,7 +48,7 @@ namespace ColorChanging.BL
                 {
                     if (colorList.Count == 0)
                     {
-                        nextColor = colorList[3];
+                        nextColor = colorList[4];
                     }
                     if (colorList.Count > 0)
                     {
