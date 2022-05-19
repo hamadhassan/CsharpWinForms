@@ -1,0 +1,11 @@
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\bin\Debug\ColorChanging.exe.config
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\bin\Debug\ColorChanging.exe
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\bin\Debug\ColorChanging.pdb
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.csproj.AssemblyReference.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.csproj.SuggestedBindingRedirects.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.frmChangeColor.resources
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.Properties.Resources.resources
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.csproj.GenerateResource.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.csproj.CoreCompileInputs.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.exe
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ColorChanging\obj\Debug\ColorChanging.pdb

@@ -121,6 +121,7 @@ namespace Login
             this.txtbxPassword.Name = "txtbxPassword";
             this.txtbxPassword.Size = new System.Drawing.Size(169, 26);
             this.txtbxPassword.TabIndex = 1;
+            this.txtbxPassword.UseSystemPasswordChar = true;
             // 
             // btnNewUser
             // 
