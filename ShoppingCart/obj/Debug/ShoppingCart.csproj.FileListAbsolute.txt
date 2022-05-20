@@ -1,0 +1,11 @@
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\bin\Debug\ShoppingCart.exe.config
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\bin\Debug\ShoppingCart.exe
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\bin\Debug\ShoppingCart.pdb
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.csproj.AssemblyReference.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.csproj.SuggestedBindingRedirects.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.frmShoppingCart.resources
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.Properties.Resources.resources
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.csproj.GenerateResource.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.csproj.CoreCompileInputs.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.exe
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.pdb
