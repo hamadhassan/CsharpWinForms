@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtbxFirst = new System.Windows.Forms.TextBox();
-            this.txtbxSecond = new System.Windows.Forms.TextBox();
-            this.txtbxResult = new System.Windows.Forms.TextBox();
+            this.txtbxBasic = new System.Windows.Forms.TextBox();
             this.btn7 = new System.Windows.Forms.Button();
             this.btn8 = new System.Windows.Forms.Button();
             this.btn9 = new System.Windows.Forms.Button();
@@ -49,29 +47,18 @@
             this.btnPoint = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.Button();
             this.btnEqualTo = new System.Windows.Forms.Button();
+            this.lblStoreResult = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtbxFirst
+            // txtbxBasic
             // 
-            this.txtbxFirst.Location = new System.Drawing.Point(12, 12);
-            this.txtbxFirst.Name = "txtbxFirst";
-            this.txtbxFirst.Size = new System.Drawing.Size(339, 26);
-            this.txtbxFirst.TabIndex = 0;
-            // 
-            // txtbxSecond
-            // 
-            this.txtbxSecond.Location = new System.Drawing.Point(12, 44);
-            this.txtbxSecond.Name = "txtbxSecond";
-            this.txtbxSecond.Size = new System.Drawing.Size(339, 26);
-            this.txtbxSecond.TabIndex = 0;
-            // 
-            // txtbxResult
-            // 
-            this.txtbxResult.Enabled = false;
-            this.txtbxResult.Location = new System.Drawing.Point(12, 76);
-            this.txtbxResult.Name = "txtbxResult";
-            this.txtbxResult.Size = new System.Drawing.Size(339, 26);
-            this.txtbxResult.TabIndex = 0;
+            this.txtbxBasic.BackColor = System.Drawing.SystemColors.Control;
+            this.txtbxBasic.Location = new System.Drawing.Point(12, 38);
+            this.txtbxBasic.Multiline = true;
+            this.txtbxBasic.Name = "txtbxBasic";
+            this.txtbxBasic.Size = new System.Drawing.Size(339, 64);
+            this.txtbxBasic.TabIndex = 0;
+            this.txtbxBasic.TextChanged += new System.EventHandler(this.txtbxBasic_TextChanged);
             // 
             // btn7
             // 
@@ -262,11 +249,22 @@
             this.btnEqualTo.UseVisualStyleBackColor = true;
             this.btnEqualTo.Click += new System.EventHandler(this.btnEqualTo_Click);
             // 
-            // frmCalculator
+            // lblStoreResult
+            // 
+            this.lblStoreResult.AutoSize = true;
+            this.lblStoreResult.ForeColor = System.Drawing.Color.DimGray;
+            this.lblStoreResult.Location = new System.Drawing.Point(12, 15);
+            this.lblStoreResult.Name = "lblStoreResult";
+            this.lblStoreResult.Size = new System.Drawing.Size(13, 20);
+            this.lblStoreResult.TabIndex = 2;
+            this.lblStoreResult.Text = ".";
+            // 
+            // frmCalculatorBasic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(363, 326);
+            this.Controls.Add(this.lblStoreResult);
             this.Controls.Add(this.btnEqualTo);
             this.Controls.Add(this.btnPlus);
             this.Controls.Add(this.btnMinus);
@@ -285,13 +283,11 @@
             this.Controls.Add(this.btn4);
             this.Controls.Add(this.btn8);
             this.Controls.Add(this.btn7);
-            this.Controls.Add(this.txtbxResult);
-            this.Controls.Add(this.txtbxSecond);
-            this.Controls.Add(this.txtbxFirst);
+            this.Controls.Add(this.txtbxBasic);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "frmCalculator";
+            this.Name = "frmCalculatorBasic";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculator";
             this.ResumeLayout(false);
@@ -301,9 +297,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtbxFirst;
-        private System.Windows.Forms.TextBox txtbxSecond;
-        private System.Windows.Forms.TextBox txtbxResult;
+        private System.Windows.Forms.TextBox txtbxBasic;
         private System.Windows.Forms.Button btn7;
         private System.Windows.Forms.Button btn8;
         private System.Windows.Forms.Button btn9;
@@ -322,6 +316,7 @@
         private System.Windows.Forms.Button btnPoint;
         private System.Windows.Forms.Button btnPlus;
         private System.Windows.Forms.Button btnEqualTo;
+        private System.Windows.Forms.Label lblStoreResult;
     }
 }
 

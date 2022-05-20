@@ -12,6 +12,7 @@ namespace BsicCalculator
 {
     public partial class frmCalculatorBasic : Form
     {
+        private double total;
         public frmCalculatorBasic()
         {
             InitializeComponent();
@@ -19,58 +20,35 @@ namespace BsicCalculator
 
         private void btn0_Click(object sender, EventArgs e)
         {
-            if(txtbxFirst.Focus())
-            {
-                txtbxFirst.Text = "0";
-            }
-            if(txtbxSecond.Focus())
-            {
-                txtbxSecond.Text = "0";
-            }
+          
         }
 
         private void btnPlus_Click(object sender, EventArgs e)
         {
-            double first =double.Parse( txtbxFirst.Text);
-            double second =double.Parse( txtbxSecond.Text);
-            double result=first + second;
-            txtbxResult.Text=Convert.ToString(result);
+            lblStoreResult.Text+=txtbxBasic.Text;
+            txtbxBasic.Text = "";
+            txtbxBasic.Focus();
+
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
-            double first = double.Parse(txtbxFirst.Text);
-            double second = double.Parse(txtbxSecond.Text);
-            double result = first - second;
-            txtbxResult.Text = Convert.ToString(result);
+          
         }
 
         private void btnMultipliy_Click(object sender, EventArgs e)
         {
-            double first = double.Parse(txtbxFirst.Text);
-            double second = double.Parse(txtbxSecond.Text);
-            double result = first * second;
-            txtbxResult.Text = Convert.ToString(result);
+            
         }
 
         private void btnDivision_Click(object sender, EventArgs e)
         {
-            double first = double.Parse(txtbxFirst.Text);
-            double second = double.Parse(txtbxSecond.Text);
-            double result = first / second;
-            if(result < 0)
-            {
-                txtbxResult.Text = "Math Error";
-            }
-            else
-            {
-                txtbxResult.Text = Convert.ToString(result);
-            }
+            
         }
 
         private void btnEqualTo_Click(object sender, EventArgs e)
         {
-
+           
         }
 
         private void btnClearOne_Click(object sender, EventArgs e)
@@ -80,14 +58,13 @@ namespace BsicCalculator
 
         private void btnClearAll_Click(object sender, EventArgs e)
         {
-            try
-            {
-                txtbxFirst.Clear();
-                txtbxSecond.Clear();
-                txtbxResult.Clear();
-            }
-            catch { };
+            
          
+        }
+
+        private void txtbxBasic_TextChanged(object sender, EventArgs e)
+        {
+          
         }
     }
 }
