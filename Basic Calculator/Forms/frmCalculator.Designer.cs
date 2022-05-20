@@ -58,7 +58,6 @@
             this.txtbxBasic.Name = "txtbxBasic";
             this.txtbxBasic.Size = new System.Drawing.Size(339, 64);
             this.txtbxBasic.TabIndex = 0;
-            this.txtbxBasic.TextChanged += new System.EventHandler(this.txtbxBasic_TextChanged);
             // 
             // btn7
             // 
@@ -69,6 +68,7 @@
             this.btn7.TabIndex = 1;
             this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = true;
+            this.btn7.Click += new System.EventHandler(this.btn7_Click);
             // 
             // btn8
             // 
@@ -79,6 +79,7 @@
             this.btn8.TabIndex = 1;
             this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = true;
+            this.btn8.Click += new System.EventHandler(this.btn8_Click);
             // 
             // btn9
             // 
@@ -89,6 +90,7 @@
             this.btn9.TabIndex = 1;
             this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = true;
+            this.btn9.Click += new System.EventHandler(this.btn9_Click);
             // 
             // btnDivision
             // 
@@ -121,6 +123,7 @@
             this.btn4.TabIndex = 1;
             this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = true;
+            this.btn4.Click += new System.EventHandler(this.btn4_Click);
             // 
             // btn5
             // 
@@ -131,6 +134,7 @@
             this.btn5.TabIndex = 1;
             this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = true;
+            this.btn5.Click += new System.EventHandler(this.btn5_Click);
             // 
             // btn6
             // 
@@ -141,6 +145,7 @@
             this.btn6.TabIndex = 1;
             this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = true;
+            this.btn6.Click += new System.EventHandler(this.btn6_Click);
             // 
             // btnMultipliy
             // 
@@ -162,7 +167,6 @@
             this.btnClearOne.TabIndex = 1;
             this.btnClearOne.Text = "C";
             this.btnClearOne.UseVisualStyleBackColor = true;
-            this.btnClearOne.Click += new System.EventHandler(this.btnClearOne_Click);
             // 
             // btn1
             // 
@@ -173,6 +177,7 @@
             this.btn1.TabIndex = 1;
             this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
             // 
@@ -183,6 +188,7 @@
             this.btn2.TabIndex = 1;
             this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = true;
+            this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
             // btn3
             // 
@@ -193,6 +199,7 @@
             this.btn3.TabIndex = 1;
             this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = true;
+            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // btnMinus
             // 
@@ -226,6 +233,7 @@
             this.btnPoint.TabIndex = 1;
             this.btnPoint.Text = ".";
             this.btnPoint.UseVisualStyleBackColor = true;
+            this.btnPoint.Click += new System.EventHandler(this.btnPoint_Click);
             // 
             // btnPlus
             // 
@@ -255,9 +263,8 @@
             this.lblStoreResult.ForeColor = System.Drawing.Color.DimGray;
             this.lblStoreResult.Location = new System.Drawing.Point(12, 15);
             this.lblStoreResult.Name = "lblStoreResult";
-            this.lblStoreResult.Size = new System.Drawing.Size(13, 20);
+            this.lblStoreResult.Size = new System.Drawing.Size(0, 20);
             this.lblStoreResult.TabIndex = 2;
-            this.lblStoreResult.Text = ".";
             // 
             // frmCalculatorBasic
             // 
