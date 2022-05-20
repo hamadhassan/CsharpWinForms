@@ -1,0 +1,12 @@
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\bin\Debug\BsicCalculator.exe.config
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\bin\Debug\BsicCalculator.exe
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\bin\Debug\BsicCalculator.pdb
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.csproj.AssemblyReference.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.csproj.SuggestedBindingRedirects.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.frmCalculator.resources
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.Properties.Resources.resources
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.csproj.GenerateResource.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.csproj.CoreCompileInputs.cache
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.exe
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.pdb
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\BsicCalculator\obj\Debug\BsicCalculator.frmCalculatorBasic.resources
