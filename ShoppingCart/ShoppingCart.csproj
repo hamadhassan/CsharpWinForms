@@ -46,16 +46,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BL\ShoppingCartBL.cs" />
+    <Compile Include="DL\ShoppingCartDL.cs" />
     <Compile Include="Forms\frmShoppingCart.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\frmShoppingCart.Designer.cs">
       <DependentUpon>frmShoppingCart.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\frmShoppingCartFromDataGrideView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmShoppingCartFromDataGrideView.Designer.cs">
+      <DependentUpon>frmShoppingCartFromDataGrideView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\frmShoppingCart.resx">
       <DependentUpon>frmShoppingCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmShoppingCartFromDataGrideView.resx">
+      <DependentUpon>frmShoppingCartFromDataGrideView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -29,28 +29,28 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtbxShirt = new System.Windows.Forms.TextBox();
-            this.lblRemoveShirt = new System.Windows.Forms.Label();
-            this.lblShirt = new System.Windows.Forms.Label();
             this.lblShirtTotal = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtbxShoes = new System.Windows.Forms.TextBox();
-            this.lblRemoveShoes = new System.Windows.Forms.Label();
-            this.lblRemovePaints = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtbxPaints = new System.Windows.Forms.TextBox();
-            this.lblShoes = new System.Windows.Forms.Label();
+            this.lblShirt = new System.Windows.Forms.Label();
+            this.lblRemoveShirt = new System.Windows.Forms.Label();
+            this.txtbxShirt = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.lblShoesTotal = new System.Windows.Forms.Label();
-            this.lblPaints = new System.Windows.Forms.Label();
+            this.txtbxShoes = new System.Windows.Forms.TextBox();
+            this.lblShoes = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.lblRemoveShoes = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.lblPaintsTotal = new System.Windows.Forms.Label();
+            this.txtbxPaints = new System.Windows.Forms.TextBox();
+            this.lblRemovePaints = new System.Windows.Forms.Label();
+            this.lblPaints = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.lblTotal = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -72,27 +72,16 @@
             this.panel1.Size = new System.Drawing.Size(546, 54);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // label4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Description";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(179, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 20);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Quantity";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(455, 20);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(49, 20);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Total";
             // 
             // label3
             // 
@@ -105,17 +94,27 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Price";
             // 
-            // label4
+            // label2
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(455, 20);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 20);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Total";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(179, 20);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(76, 20);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Quantity";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Description";
             // 
             // panel2
             // 
@@ -131,6 +130,52 @@
             this.panel2.Size = new System.Drawing.Size(546, 85);
             this.panel2.TabIndex = 1;
             // 
+            // lblShirtTotal
+            // 
+            this.lblShirtTotal.AutoSize = true;
+            this.lblShirtTotal.Location = new System.Drawing.Point(455, 33);
+            this.lblShirtTotal.Name = "lblShirtTotal";
+            this.lblShirtTotal.Size = new System.Drawing.Size(27, 20);
+            this.lblShirtTotal.TabIndex = 3;
+            this.lblShirtTotal.Text = "00";
+            // 
+            // lblShirt
+            // 
+            this.lblShirt.AutoSize = true;
+            this.lblShirt.Location = new System.Drawing.Point(338, 33);
+            this.lblShirt.Name = "lblShirt";
+            this.lblShirt.Size = new System.Drawing.Size(36, 20);
+            this.lblShirt.TabIndex = 3;
+            this.lblShirt.Text = "100";
+            // 
+            // lblRemoveShirt
+            // 
+            this.lblRemoveShirt.AutoSize = true;
+            this.lblRemoveShirt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRemoveShirt.Location = new System.Drawing.Point(187, 56);
+            this.lblRemoveShirt.Name = "lblRemoveShirt";
+            this.lblRemoveShirt.Size = new System.Drawing.Size(68, 20);
+            this.lblRemoveShirt.TabIndex = 2;
+            this.lblRemoveShirt.Text = "Remove";
+            this.lblRemoveShirt.Click += new System.EventHandler(this.lblRemoveShirt_Click);
+            // 
+            // txtbxShirt
+            // 
+            this.txtbxShirt.Location = new System.Drawing.Point(184, 28);
+            this.txtbxShirt.Name = "txtbxShirt";
+            this.txtbxShirt.Size = new System.Drawing.Size(90, 26);
+            this.txtbxShirt.TabIndex = 1;
+            this.txtbxShirt.TextChanged += new System.EventHandler(this.txtbxShirt_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 33);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(42, 20);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Shirt";
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.SystemColors.Control;
@@ -144,6 +189,52 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(546, 85);
             this.panel3.TabIndex = 2;
+            // 
+            // lblShoesTotal
+            // 
+            this.lblShoesTotal.AutoSize = true;
+            this.lblShoesTotal.Location = new System.Drawing.Point(455, 28);
+            this.lblShoesTotal.Name = "lblShoesTotal";
+            this.lblShoesTotal.Size = new System.Drawing.Size(27, 20);
+            this.lblShoesTotal.TabIndex = 3;
+            this.lblShoesTotal.Text = "00";
+            // 
+            // txtbxShoes
+            // 
+            this.txtbxShoes.Location = new System.Drawing.Point(184, 22);
+            this.txtbxShoes.Name = "txtbxShoes";
+            this.txtbxShoes.Size = new System.Drawing.Size(90, 26);
+            this.txtbxShoes.TabIndex = 1;
+            this.txtbxShoes.TextChanged += new System.EventHandler(this.txtbxShoes_TextChanged);
+            // 
+            // lblShoes
+            // 
+            this.lblShoes.AutoSize = true;
+            this.lblShoes.Location = new System.Drawing.Point(338, 28);
+            this.lblShoes.Name = "lblShoes";
+            this.lblShoes.Size = new System.Drawing.Size(36, 20);
+            this.lblShoes.TabIndex = 3;
+            this.lblShoes.Text = "200";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(13, 28);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(55, 20);
+            this.label9.TabIndex = 0;
+            this.label9.Text = "Shoes";
+            // 
+            // lblRemoveShoes
+            // 
+            this.lblRemoveShoes.AutoSize = true;
+            this.lblRemoveShoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRemoveShoes.Location = new System.Drawing.Point(188, 51);
+            this.lblRemoveShoes.Name = "lblRemoveShoes";
+            this.lblRemoveShoes.Size = new System.Drawing.Size(68, 20);
+            this.lblRemoveShoes.TabIndex = 2;
+            this.lblRemoveShoes.Text = "Remove";
+            this.lblRemoveShoes.Click += new System.EventHandler(this.lblRemoveShoes_Click);
             // 
             // panel4
             // 
@@ -159,79 +250,22 @@
             this.panel4.Size = new System.Drawing.Size(546, 85);
             this.panel4.TabIndex = 3;
             // 
-            // label5
+            // lblPaintsTotal
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 33);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 20);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Shirt";
+            this.lblPaintsTotal.AutoSize = true;
+            this.lblPaintsTotal.Location = new System.Drawing.Point(455, 31);
+            this.lblPaintsTotal.Name = "lblPaintsTotal";
+            this.lblPaintsTotal.Size = new System.Drawing.Size(27, 20);
+            this.lblPaintsTotal.TabIndex = 3;
+            this.lblPaintsTotal.Text = "00";
             // 
-            // txtbxShirt
+            // txtbxPaints
             // 
-            this.txtbxShirt.Location = new System.Drawing.Point(184, 28);
-            this.txtbxShirt.Name = "txtbxShirt";
-            this.txtbxShirt.Size = new System.Drawing.Size(90, 26);
-            this.txtbxShirt.TabIndex = 1;
-            this.txtbxShirt.TextChanged += new System.EventHandler(this.txtbxShirt_TextChanged);
-            // 
-            // lblRemoveShirt
-            // 
-            this.lblRemoveShirt.AutoSize = true;
-            this.lblRemoveShirt.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRemoveShirt.Location = new System.Drawing.Point(187, 56);
-            this.lblRemoveShirt.Name = "lblRemoveShirt";
-            this.lblRemoveShirt.Size = new System.Drawing.Size(68, 20);
-            this.lblRemoveShirt.TabIndex = 2;
-            this.lblRemoveShirt.Text = "Remove";
-            this.lblRemoveShirt.Click += new System.EventHandler(this.lblRemoveShirt_Click);
-            // 
-            // lblShirt
-            // 
-            this.lblShirt.AutoSize = true;
-            this.lblShirt.Location = new System.Drawing.Point(338, 33);
-            this.lblShirt.Name = "lblShirt";
-            this.lblShirt.Size = new System.Drawing.Size(36, 20);
-            this.lblShirt.TabIndex = 3;
-            this.lblShirt.Text = "100";
-            // 
-            // lblShirtTotal
-            // 
-            this.lblShirtTotal.AutoSize = true;
-            this.lblShirtTotal.Location = new System.Drawing.Point(455, 33);
-            this.lblShirtTotal.Name = "lblShirtTotal";
-            this.lblShirtTotal.Size = new System.Drawing.Size(27, 20);
-            this.lblShirtTotal.TabIndex = 3;
-            this.lblShirtTotal.Text = "00";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 28);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(55, 20);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Shoes";
-            // 
-            // txtbxShoes
-            // 
-            this.txtbxShoes.Location = new System.Drawing.Point(184, 22);
-            this.txtbxShoes.Name = "txtbxShoes";
-            this.txtbxShoes.Size = new System.Drawing.Size(90, 26);
-            this.txtbxShoes.TabIndex = 1;
-            this.txtbxShoes.TextChanged += new System.EventHandler(this.txtbxShoes_TextChanged);
-            // 
-            // lblRemoveShoes
-            // 
-            this.lblRemoveShoes.AutoSize = true;
-            this.lblRemoveShoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Italic | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRemoveShoes.Location = new System.Drawing.Point(188, 51);
-            this.lblRemoveShoes.Name = "lblRemoveShoes";
-            this.lblRemoveShoes.Size = new System.Drawing.Size(68, 20);
-            this.lblRemoveShoes.TabIndex = 2;
-            this.lblRemoveShoes.Text = "Remove";
-            this.lblRemoveShoes.Click += new System.EventHandler(this.lblRemoveShoes_Click);
+            this.txtbxPaints.Location = new System.Drawing.Point(184, 25);
+            this.txtbxPaints.Name = "txtbxPaints";
+            this.txtbxPaints.Size = new System.Drawing.Size(90, 26);
+            this.txtbxPaints.TabIndex = 1;
+            this.txtbxPaints.TextChanged += new System.EventHandler(this.txtbxPaints_TextChanged);
             // 
             // lblRemovePaints
             // 
@@ -244,43 +278,6 @@
             this.lblRemovePaints.Text = "Remove";
             this.lblRemovePaints.Click += new System.EventHandler(this.lblRemovePaints_Click);
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(13, 31);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(53, 20);
-            this.label14.TabIndex = 0;
-            this.label14.Text = "Paints";
-            // 
-            // txtbxPaints
-            // 
-            this.txtbxPaints.Location = new System.Drawing.Point(184, 25);
-            this.txtbxPaints.Name = "txtbxPaints";
-            this.txtbxPaints.Size = new System.Drawing.Size(90, 26);
-            this.txtbxPaints.TabIndex = 1;
-            this.txtbxPaints.TextChanged += new System.EventHandler(this.txtbxPaints_TextChanged);
-            // 
-            // lblShoes
-            // 
-            this.lblShoes.AutoSize = true;
-            this.lblShoes.Location = new System.Drawing.Point(338, 28);
-            this.lblShoes.Name = "lblShoes";
-            this.lblShoes.Size = new System.Drawing.Size(36, 20);
-            this.lblShoes.TabIndex = 3;
-            this.lblShoes.Text = "200";
-            this.lblShoes.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // lblShoesTotal
-            // 
-            this.lblShoesTotal.AutoSize = true;
-            this.lblShoesTotal.Location = new System.Drawing.Point(455, 28);
-            this.lblShoesTotal.Name = "lblShoesTotal";
-            this.lblShoesTotal.Size = new System.Drawing.Size(27, 20);
-            this.lblShoesTotal.TabIndex = 3;
-            this.lblShoesTotal.Text = "00";
-            this.lblShoesTotal.Click += new System.EventHandler(this.label8_Click);
-            // 
             // lblPaints
             // 
             this.lblPaints.AutoSize = true;
@@ -290,14 +287,14 @@
             this.lblPaints.TabIndex = 3;
             this.lblPaints.Text = "300";
             // 
-            // lblPaintsTotal
+            // label14
             // 
-            this.lblPaintsTotal.AutoSize = true;
-            this.lblPaintsTotal.Location = new System.Drawing.Point(455, 31);
-            this.lblPaintsTotal.Name = "lblPaintsTotal";
-            this.lblPaintsTotal.Size = new System.Drawing.Size(27, 20);
-            this.lblPaintsTotal.TabIndex = 3;
-            this.lblPaintsTotal.Text = "00";
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(13, 31);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(53, 20);
+            this.label14.TabIndex = 0;
+            this.label14.Text = "Paints";
             // 
             // label6
             // 
@@ -339,7 +336,6 @@
             this.Name = "frmShoppingCart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ShoppingCart";
-            this.Load += new System.EventHandler(this.frmShoppingCart_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

@@ -18,26 +18,6 @@ namespace ShoppingCart
         }
         private double grandTotal;
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmShoppingCart_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void lblRemoveShirt_Click(object sender, EventArgs e)
         {
             txtbxShirt.Clear();
@@ -79,5 +59,6 @@ namespace ShoppingCart
             lblTotal.Text = Convert.ToString(grandTotal + total);
 
         }
+
     }
 }

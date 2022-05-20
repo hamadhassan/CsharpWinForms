@@ -9,3 +9,4 @@ D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.csproj
 D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.csproj.CoreCompileInputs.cache
 D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.exe
 D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.pdb
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\ShoppingCart\obj\Debug\ShoppingCart.frmShoppingCartFromDataGrideView.resources
