@@ -19,3 +19,6 @@ D:\COMPUTER SCIENCE\PD\CsharpWinForms\Basic Calculator\obj\Debug\BsicCalculator.
 D:\COMPUTER SCIENCE\PD\CsharpWinForms\Basic Calculator\obj\Debug\BsicCalculator.csproj.CoreCompileInputs.cache
 D:\COMPUTER SCIENCE\PD\CsharpWinForms\Basic Calculator\obj\Debug\BsicCalculator.exe
 D:\COMPUTER SCIENCE\PD\CsharpWinForms\Basic Calculator\obj\Debug\BsicCalculator.pdb
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\Basic Calculator\bin\Debug\BsicCalculator.exe.config
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\Basic Calculator\bin\Debug\BsicCalculator.exe
+D:\COMPUTER SCIENCE\PD\CsharpWinForms\Basic Calculator\bin\Debug\BsicCalculator.pdb
