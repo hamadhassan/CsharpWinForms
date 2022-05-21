@@ -17,18 +17,7 @@ namespace BsicCalculator
             InitializeComponent();
         }
 
-        private void btn0_Click(object sender, EventArgs e)
-        {
-            if(txtbxFirst.Focus())
-            {
-                txtbxFirst.Text = "0";
-            }
-            if(txtbxSecond.Focus())
-            {
-                txtbxSecond.Text = "0";
-            }
-        }
-
+      
         private void btnPlus_Click(object sender, EventArgs e)
         {
             double first =double.Parse( txtbxFirst.Text);
@@ -67,17 +56,6 @@ namespace BsicCalculator
                 txtbxResult.Text = Convert.ToString(result);
             }
         }
-
-        private void btnEqualTo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnClearOne_Click(object sender, EventArgs e)
-        {
-           
-        }
-
         private void btnClearAll_Click(object sender, EventArgs e)
         {
             try
