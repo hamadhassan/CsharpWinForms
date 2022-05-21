@@ -89,11 +89,7 @@ namespace BsicCalculator
         #endregion
 
         #region Button 0-9, .
-        private void btnClearAll_Click(object sender, EventArgs e)
-        {
-            txtbxBasic.Text = "";
-            lblStoreResult.Text = "";
-        }
+       
         private void btn0_Click(object sender, EventArgs e)
         {
             txtbxBasic.Text += 0;
@@ -145,6 +141,25 @@ namespace BsicCalculator
         private void btnPoint_Click(object sender, EventArgs e)
         {
             txtbxBasic.Text += ".";
+        }
+        #endregion
+
+        #region Clear  
+        private void btnClearOne_Click(object sender, EventArgs e)
+        {
+            if (txtbxBasic.TextLength >= 1)
+            {
+                txtbxBasic.Text = txtbxBasic.Text.Substring(0, (txtbxBasic.TextLength - 1));
+            }
+            else
+            {
+                MessageBox.Show("No Number.");
+            }
+        }
+        private void btnClearAll_Click(object sender, EventArgs e)
+        {
+            txtbxBasic.Text = "";
+            lblStoreResult.Text = "";
         }
         #endregion
     }

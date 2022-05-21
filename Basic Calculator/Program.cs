@@ -16,7 +16,7 @@ namespace BsicCalculator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCalculator());
+            Application.Run(new frmCalculatorBasic());
         }
     }
 }

@@ -167,6 +167,7 @@
             this.btnClearOne.TabIndex = 1;
             this.btnClearOne.Text = "C";
             this.btnClearOne.UseVisualStyleBackColor = true;
+            this.btnClearOne.Click += new System.EventHandler(this.btnClearOne_Click);
             // 
             // btn1
             // 
@@ -268,6 +269,7 @@
             // 
             // frmCalculatorBasic
             // 
+            this.AcceptButton = this.btnEqualTo;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(363, 326);
