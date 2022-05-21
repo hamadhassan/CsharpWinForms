@@ -16,7 +16,7 @@ namespace ShoppingCart
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmShoppingCartFromDataGrideView());
+            Application.Run(new frmShoppingCart());
         }
     }
 }
