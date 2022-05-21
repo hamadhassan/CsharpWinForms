@@ -88,7 +88,7 @@ namespace BsicCalculator
         }
         #endregion
 
-        #region Button 1-9, .
+        #region Button 0-9, .
         private void btnClearAll_Click(object sender, EventArgs e)
         {
             txtbxBasic.Text = "";

@@ -175,7 +175,6 @@
             this.btnClearOne.TabIndex = 18;
             this.btnClearOne.Text = "C";
             this.btnClearOne.UseVisualStyleBackColor = true;
-            this.btnClearOne.Click += new System.EventHandler(this.btnClearOne_Click);
             // 
             // btn1
             // 
@@ -227,7 +226,6 @@
             this.btn0.TabIndex = 2;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = true;
-            this.btn0.Click += new System.EventHandler(this.btn0_Click);
             // 
             // btnPoint
             // 
@@ -260,7 +258,6 @@
             this.btnEqualTo.TabIndex = 17;
             this.btnEqualTo.Text = "=";
             this.btnEqualTo.UseVisualStyleBackColor = true;
-            this.btnEqualTo.Click += new System.EventHandler(this.btnEqualTo_Click);
             // 
             // frmCalculator
             // 
