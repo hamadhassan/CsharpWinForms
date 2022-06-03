@@ -1,0 +1,12 @@
+D:\COMPUTER SCIENCE\PD\Notepad\bin\Debug\Notepad.exe.config
+D:\COMPUTER SCIENCE\PD\Notepad\bin\Debug\Notepad.exe
+D:\COMPUTER SCIENCE\PD\Notepad\bin\Debug\Notepad.pdb
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.csproj.AssemblyReference.cache
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.csproj.SuggestedBindingRedirects.cache
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.frmMain.resources
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.Properties.Resources.resources
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.csproj.GenerateResource.cache
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.csproj.CoreCompileInputs.cache
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.exe
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.pdb
+D:\COMPUTER SCIENCE\PD\Notepad\obj\Debug\Notepad.frmAbout.resources
