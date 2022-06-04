@@ -4,9 +4,11 @@ D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDev
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.csproj.AssemblyReference.cache
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.csproj.SuggestedBindingRedirects.cache
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.Properties.Resources.resources
-D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.UCTextBox.resources
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.csproj.GenerateResource.cache
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.csproj.CoreCompileInputs.cache
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.exe
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.pdb
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.frmTest.resources
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.CUTextBox.resources
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.CUTimer.resources
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.CUComboBox.resources

@@ -1,6 +1,6 @@
 ﻿namespace CustomControl
 {
-    partial class UCTextBox
+    partial class CUTextBox
     {
         /// <summary> 
         /// Required designer variable.
@@ -73,14 +73,14 @@
             this.tableLayoutPanel.Size = new System.Drawing.Size(164, 67);
             this.tableLayoutPanel.TabIndex = 2;
             // 
-            // UCTextBox
+            // CUTextBox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.tableLayoutPanel);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "UCTextBox";
+            this.Name = "CUTextBox";
             this.Size = new System.Drawing.Size(164, 67);
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
