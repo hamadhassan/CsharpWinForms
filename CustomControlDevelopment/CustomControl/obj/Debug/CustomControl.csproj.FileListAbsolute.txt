@@ -12,3 +12,4 @@ D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDev
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.CUTextBox.resources
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.CUTimer.resources
 D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.CUComboBox.resources
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\CustomControlDevelopment\CustomControl\obj\Debug\CustomControl.CUDataGrideView.resources

@@ -12,7 +12,7 @@ namespace CustomControl
 {
     public partial class CUComboBox : UserControl
     {
-        private string item;
+        private string item="a";
         private int index;
         public event EventHandler AddItemIntoList;
         public CUComboBox()
@@ -62,8 +62,8 @@ namespace CustomControl
         #region LoadEvent 
         private void CUComboBox_Load(object sender, EventArgs e)
         {
-            OnAddItemIntoList(EventArgs.Empty);
             addItem();
+            OnAddItemIntoList(EventArgs.Empty);
             cmbxList.SelectedIndex = index;
         }
         #endregion
