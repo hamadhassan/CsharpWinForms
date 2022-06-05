@@ -33,10 +33,10 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.datagv = new System.Windows.Forms.DataGridView();
+            this.DeleteCU = new CustomControl.CUDataGrideView();
             this.cuComboBox1 = new CustomControl.CUComboBox();
             this.cuTimer1 = new CustomControl.CUTimer();
             this.ucTextBox1 = new CustomControl.CUTextBox();
-            this.cuDataGrideView1 = new CustomControl.CUDataGrideView();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -96,6 +96,17 @@
             this.datagv.TabIndex = 0;
             this.datagv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.datagv_CellContentClick);
             // 
+            // DeleteCU
+            // 
+            this.DeleteCU.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeleteCU.Location = new System.Drawing.Point(569, 163);
+            this.DeleteCU.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.DeleteCU.Name = "DeleteCU";
+            this.DeleteCU.Size = new System.Drawing.Size(135, 139);
+            this.DeleteCU.TabIndex = 5;
+            this.DeleteCU.Delete += new System.EventHandler(this.cuDataGrideView1_Delete);
+            this.DeleteCU.Search += new System.EventHandler(this.cuDataGrideView1_Search);
+            // 
             // cuComboBox1
             // 
             this.cuComboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -112,7 +123,7 @@
             // 
             this.cuTimer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cuTimer1.Interval = -1;
-            this.cuTimer1.IsEnable = true;
+            this.cuTimer1.IsEnable = false;
             this.cuTimer1.Location = new System.Drawing.Point(67, 42);
             this.cuTimer1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cuTimer1.Name = "cuTimer1";
@@ -132,23 +143,12 @@
             this.ucTextBox1.TabIndex = 0;
             this.ucTextBox1.Txtlenght = 3;
             // 
-            // cuDataGrideView1
-            // 
-            this.cuDataGrideView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cuDataGrideView1.Location = new System.Drawing.Point(569, 163);
-            this.cuDataGrideView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cuDataGrideView1.Name = "cuDataGrideView1";
-            this.cuDataGrideView1.Size = new System.Drawing.Size(135, 139);
-            this.cuDataGrideView1.TabIndex = 5;
-            this.cuDataGrideView1.Delete += new System.EventHandler(this.cuDataGrideView1_Delete);
-            this.cuDataGrideView1.Search += new System.EventHandler(this.cuDataGrideView1_Search);
-            // 
             // frmTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(757, 497);
-            this.Controls.Add(this.cuDataGrideView1);
+            this.Controls.Add(this.DeleteCU);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -178,7 +178,7 @@
         private CUComboBox cuComboBox1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.DataGridView datagv;
-        private CUDataGrideView cuDataGrideView1;
+        private CUDataGrideView DeleteCU;
     }
 }
 

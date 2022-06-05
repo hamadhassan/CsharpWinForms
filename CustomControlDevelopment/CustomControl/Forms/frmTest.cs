@@ -59,6 +59,7 @@ namespace CustomControl
 
         private void button1_Click(object sender, EventArgs e)
         {
+           
             if (datagv.SelectedRows.Count > 0)
             {
                 datagv.Rows.RemoveAt(datagv.SelectedRows[0].Index);
@@ -67,12 +68,12 @@ namespace CustomControl
 
         private void cuDataGrideView1_Delete(object sender, EventArgs e)
         {
-            cuDataGrideView1.deleteSelectedRow(datagv);
+            DeleteCU.deleteSelectedRow(datagv);
         }
 
         private void cuDataGrideView1_Search(object sender, EventArgs e)
         {
-            if (cuDataGrideView1.SearchUsername())
+            if (DeleteCU.SearchUsername())
             {
                 MessageBox.Show("Available", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
