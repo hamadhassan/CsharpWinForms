@@ -1,0 +1,6 @@
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\Framework\DeveloperFramework\bin\Debug\DeveloperFramework.dll
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\Framework\DeveloperFramework\bin\Debug\DeveloperFramework.pdb
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\Framework\DeveloperFramework\obj\Debug\DeveloperFramework.csproj.AssemblyReference.cache
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\Framework\DeveloperFramework\obj\Debug\DeveloperFramework.csproj.CoreCompileInputs.cache
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\Framework\DeveloperFramework\obj\Debug\DeveloperFramework.dll
+D:\COMPUTER SCIENCE\PD\GitHub Local Repositories\CsharpWinForms\Framework\DeveloperFramework\obj\Debug\DeveloperFramework.pdb
