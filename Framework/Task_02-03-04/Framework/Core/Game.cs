@@ -12,7 +12,7 @@ namespace Framework.Core
 {
     public class Game
     {
-        int gravity=5;
+        int gravity;
         List<GameObject> gameObjectsList;
         public event EventHandler onGameObjectAdded;
         public Game(int gravity)
@@ -28,6 +28,17 @@ namespace Framework.Core
             GameObject gameObject = new GameObject(img, left, top,movement);
             gameObjectsList.Add(gameObject);
             onGameObjectAdded?.Invoke(gameObject.Pb, EventArgs.Empty);
+        }
+        public void keyPressed(Keys keyCode)
+        {
+            foreach(GameObject go in gameObjectsList)
+            {
+                if (go.Movement.GetType() == typeof(Keyboard))
+                {
+                    Keyboard keyboardHandle = (Keyboard)go.Movement;
+                    keyboardHandle.keyPressedByUser(keyCode);
+                }
+            }
         }
         public void update()
         {

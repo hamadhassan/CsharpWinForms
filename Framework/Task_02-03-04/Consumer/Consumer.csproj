@@ -86,7 +86,9 @@
       <Name>Framework</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker %283%29.gif" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ezgif.com-gif-maker %284%29.gif" />
   </ItemGroup>

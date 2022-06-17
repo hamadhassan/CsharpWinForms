@@ -46,6 +46,7 @@
     <Compile Include="Core\GameObject.cs" />
     <Compile Include="Movement\Horizontal.cs" />
     <Compile Include="Movement\IMovement.cs" />
+    <Compile Include="Movement\Keyboard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>

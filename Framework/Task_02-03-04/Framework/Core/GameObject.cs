@@ -24,6 +24,7 @@ namespace Framework.Core
             this.movement = movement;
         }
 
+        public IMovement Movement { get => movement; set => movement = value; }
         internal PictureBox Pb { get => pb; set => pb = value; }
         public void update(int gravity)
         {

@@ -28,7 +28,7 @@ namespace Consumer
             Point boundary = new Point(this.Width, this.Height);
             //Adding game object
             game.addGameObject(Consumer.Properties.Resources.pic, 20, 20,new Horizontal(3,boundary,"left"));
-          
+            game.addGameObject(Consumer.Properties.Resources.fir, 20, 20, new Keyboard(3, boundary));
         }
         private void addIntoFormControls(object sender, EventArgs e)
         {
@@ -42,7 +42,7 @@ namespace Consumer
 
         private void frmTesting_KeyDown(object sender, KeyEventArgs e)
         {
-            
+            game.keyPressed(e.KeyCode);  
         }
     }
 }
