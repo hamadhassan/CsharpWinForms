@@ -92,5 +92,11 @@
   <ItemGroup>
     <None Include="Resources\ezgif.com-gif-maker %284%29.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\attackLeft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemyAttackLeft.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
 using Framework.Movement;
+using Framework.Collision;
 
 namespace Framework.Core
 {
@@ -13,8 +14,10 @@ namespace Framework.Core
     {
         private PictureBox pb;
         private IMovement movement;
-        public GameObject(Image img, int left, int top,IMovement movement)
+        private ObjectType otype;//object type
+        public GameObject(ObjectType otype,Image img, int left, int top,IMovement movement)
         {
+            this.otype = otype;
             pb = new PictureBox();
             pb.Image = img;
             pb.Left = left;
@@ -25,8 +28,9 @@ namespace Framework.Core
         }
 
         public IMovement Movement { get => movement; set => movement = value; }
+        public ObjectType Otype { get => otype; set => otype = value; }
         internal PictureBox Pb { get => pb; set => pb = value; }
-        public void update(int gravity)
+        public void updateLocation(int gravity)
         {
            pb.Location=movement.move(pb.Location);
         }

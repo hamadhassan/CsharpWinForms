@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Framework.Core;
 using Framework.Movement;
+using Framework.Collision;
 
 namespace Consumer
 {
@@ -24,12 +25,22 @@ namespace Consumer
             game = new Game(5);
             //Event handlers
             game.OnGameObjectAdded += new EventHandler(addIntoFormControls);
+            game.OnPlayerDie+=new EventHandler(removePlayerFromControls);
             //Boundary of the form
             Point boundary = new Point(this.Width, this.Height);
-            //Adding game object
-            game.addGameObject(Consumer.Properties.Resources.pic, 20, 20,new Horizontal(3,boundary,"left"));
-            game.addGameObject(Consumer.Properties.Resources.fir, 20, 20, new Keyboard(3, boundary));
+            //Adding game object//
+            game.addGameObject(ObjectType.enemy,Consumer.Properties.Resources.attackLeft, 20, 20, new Keyboard(10, boundary));
+            game.addGameObject(ObjectType.player,Consumer.Properties.Resources.enemyAttackLeft, 50, 100, new Horizontal(10, boundary, "left"));
+            //Adding collision
+            CollisionClass c = new CollisionClass(ObjectType.player, ObjectType.enemy, new PLayerCollision());
+            game.addCollsionIntoList(c);
         }
+
+        private void removePlayerFromControls(object sender, EventArgs e)
+        {
+            this.Controls.Remove((PictureBox)sender);
+        }
+
         private void addIntoFormControls(object sender, EventArgs e)
         {
             this.Controls.Add((PictureBox)sender);

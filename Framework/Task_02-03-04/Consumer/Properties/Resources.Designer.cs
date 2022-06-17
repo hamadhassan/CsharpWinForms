@@ -63,6 +63,26 @@ namespace Consumer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap attackLeft {
+            get {
+                object obj = ResourceManager.GetObject("attackLeft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap enemyAttackLeft {
+            get {
+                object obj = ResourceManager.GetObject("enemyAttackLeft", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fir {
             get {
                 object obj = ResourceManager.GetObject("fir", resourceCulture);

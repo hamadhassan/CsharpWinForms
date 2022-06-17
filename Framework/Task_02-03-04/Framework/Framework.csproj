@@ -42,8 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Collision\ICollisionAction.cs" />
+    <Compile Include="Collision\ObjectType.cs" />
+    <Compile Include="Collision\CollisionClass.cs" />
+    <Compile Include="Collision\PLayerCollision.cs" />
     <Compile Include="Core\Game.cs" />
     <Compile Include="Core\GameObject.cs" />
+    <Compile Include="Core\IGame.cs" />
     <Compile Include="Movement\Horizontal.cs" />
     <Compile Include="Movement\IMovement.cs" />
     <Compile Include="Movement\Keyboard.cs" />

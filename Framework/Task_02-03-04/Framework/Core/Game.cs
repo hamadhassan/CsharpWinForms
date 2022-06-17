@@ -7,27 +7,33 @@ using Framework.Core;
 using System.Drawing;
 using System.Windows.Forms;
 using Framework.Movement;
+using Framework.Collision;
 
 namespace Framework.Core
 {
-    public class Game
+    public class Game:IGame
     {
         int gravity;
         List<GameObject> gameObjectsList;
-        public event EventHandler onGameObjectAdded;
+        List<CollisionClass> collisionList;
+        public event EventHandler OnGameObjectAdded;
+        public event EventHandler OnPlayerDie;
+
         public Game(int gravity)
         {
-            this.gravity = gravity;
             gameObjectsList = new List<GameObject>();
+            collisionList = new List<CollisionClass>();
+            this.gravity = gravity;
         }
-
-        public EventHandler OnGameObjectAdded { get => onGameObjectAdded; set => onGameObjectAdded = value; }
-
-        public void addGameObject(Image img, int left, int top,IMovement movement)
+        public void risePlayerDieEvent(PictureBox playerGameObject)
         {
-            GameObject gameObject = new GameObject(img, left, top,movement);
+            OnPlayerDie?.Invoke(playerGameObject, EventArgs.Empty);
+        }
+        public void addGameObject(ObjectType otype,Image img, int left, int top,IMovement movement)
+        {
+            GameObject gameObject = new GameObject(otype,img, left, top,movement);
             gameObjectsList.Add(gameObject);
-            onGameObjectAdded?.Invoke(gameObject.Pb, EventArgs.Empty);
+            OnGameObjectAdded?.Invoke(gameObject.Pb, EventArgs.Empty);
         }
         public void keyPressed(Keys keyCode)
         {
@@ -42,10 +48,34 @@ namespace Framework.Core
         }
         public void update()
         {
+            detectCollsion();
             foreach (GameObject go in gameObjectsList)
             {
-                go.update(this.gravity);
+                go.updateLocation(this.gravity);
             }
+        }
+        private void detectCollsion()
+        {
+            for(int x = 0; x < gameObjectsList.Count; x++)
+            {
+                for(int y = 0; y < gameObjectsList.Count; y++)
+                {
+                    if (gameObjectsList[x].Pb.Bounds.IntersectsWith(gameObjectsList[y].Pb.Bounds))
+                    {
+                        foreach(CollisionClass c in collisionList)
+                        {
+                            if (gameObjectsList[x].Otype == c.G1 && gameObjectsList[y].Otype == c.G2)
+                            {
+                                c.Behaviour.perfromAction(this, gameObjectsList[x], gameObjectsList[y]);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        public void addCollsionIntoList(CollisionClass c)
+        {
+            collisionList.Add(c);
         }
     }
 }
