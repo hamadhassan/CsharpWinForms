@@ -39,6 +39,8 @@ namespace Consumer
         private void removePlayerFromControls(object sender, EventArgs e)
         {
             this.Controls.Remove((PictureBox)sender);
+            this.Controls.Remove((PictureBox)null);
+            
         }
 
         private void addIntoFormControls(object sender, EventArgs e)
